@@ -1,0 +1,35 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>Minsk</servlet-name>
+    <servlet-class>com.teachmeskills.lesson24.hw.task1.task1_annotation.MinskDateTime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Minsk</servlet-name>
+    <url-pattern>/xml/minsk</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Beijing</servlet-name>
+    <servlet-class>com.teachmeskills.lesson24.hw.task1.task1_annotation.BeijingDateTime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Beijing</servlet-name>
+    <url-pattern>/xml/beijing</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Washington</servlet-name>
+    <servlet-class>com.teachmeskills.lesson24.hw.task1.task1_annotation.WashingtonDateTime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Washington</servlet-name>
+    <url-pattern>/xml/washington</url-pattern>
+  </servlet-mapping>
+</web-app>
